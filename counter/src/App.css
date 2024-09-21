@@ -1,0 +1,62 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.counterValue {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.button:not(:last-child) {
+    margin-right: 15px;
+}
+
+.inc {
+    background-color: green;
+}
+
+.res {
+    background-color: red;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.isDone {
+    color: red;
+}
+
